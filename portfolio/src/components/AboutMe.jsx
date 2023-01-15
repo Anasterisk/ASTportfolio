@@ -3,9 +3,10 @@ export default function AboutMe (){
 
     return(
         <div class="h-screen">
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero card-side min-h-screen bg-base-200">
+                
                 <div className="hero-content text-center">
-                    <div className="max-w-md">
+                    <div className="max-w-md"><figure><img src="https://placeimg.com/400/225/arch"/></figure>
                         <h1 className="text-5xl font-bold">Hi, I'm Alvin Toch</h1>
                          <p className="py-6">
                             I'm a Junior Software Developer and a recent graduate of the General Assembly SEI Fall 2022 cohort. I'm experienced in Javascript, Python, React, Sequelize, Django, and PostgreSQL </p>

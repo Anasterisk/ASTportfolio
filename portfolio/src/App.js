@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import { themeChange } from 'theme-change'
 import { useEffect } from 'react';
 
+
 function App() {
   useEffect(()=>{
     themeChange(false)
@@ -53,7 +54,7 @@ function App() {
 
         <div class='dropdown top-1' >
         <select data-choose-theme class='m-2.5 rounded btn-sm  btn-outline hover:btn-primary'>
-          <option value="synth">Default</option>
+          <option value="valentine">Default</option>
           <option value="cyberpunk">Yellow</option>
           <option value="dark">Dark</option>
         </select>
