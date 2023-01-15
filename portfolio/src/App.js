@@ -28,7 +28,7 @@ function App() {
   let foregroundButton = `cursor-pointer px-5 py-2 text-sm border text-gray-500 hover:bg-gray-100 rounded border-gray-300 fixed top-0 left-0 hover:ease-in duration-200`
   
   return (
-    <div className='w-screen h-screen flex items-center justify-center'>
+    <div class='w-screen h-screen flex items-center justify-center'>
       <div onClick={()=>setToggle(!toggle)} class={` ${foregroundButton}`}>Menu</div> 
       <div class={`${maintoggle}`}>
         <Main/>
