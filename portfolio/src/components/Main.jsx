@@ -1,8 +1,6 @@
 import Landing from "./Landing"
 import AboutMe from "./AboutMe"
 import Projects from "./Projects"
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-import React, {useRef} from 'react'
 export default function main(){
 
     return(
