@@ -5,10 +5,17 @@ export default function main(){
 
     return(
         <div>
-            <div className="container mx-auto">
+            <div className="h-screen flex flex-col container w-screen  -my-10 py-10 snap-y snap-proximity">
+                <div class=' snap-center h-screen'>
                 <Landing/>
+                </div>
+                <div class=''></div>
+                <div class=' snap-center py-10 h-screen'>
                 <AboutMe/>
+                </div>
+                <div class=' snap-center py-10 h-screen'>
                 <Projects/>
+                </div>
             </div>
             
         </div>

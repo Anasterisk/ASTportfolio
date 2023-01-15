@@ -3,10 +3,10 @@
 export default function Projects (){
 
     return(
-        <div>
+        <div class="h-screen justify-center items-center py-10 px-15">
             Past Projects
-            <div className="carousel rounded-box w-full scroll-pl-6 snap-x ">
-                <div className="snap-start carousel-item w-1/2">
+            <div className="carousel carousel-center  p-10 space-x-10 bg-neutral rounded-box w-full scroll-pl-6 snap-x ">
+                <div className="snap-center carousel-item">
                     <div className="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img src="https://placeimg.com/400/225/arch" alt="card" /></figure>
                         <div className="card-body">
@@ -25,7 +25,7 @@ export default function Projects (){
                     </div>
                 </div> 
 
-                <div className="snap-start carousel-item w-1/2">
+                <div className="snap-center carousel-item">
                     <div>
                     <div className="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img src="https://placeimg.com/400/225/arch" alt="card" /></figure>
@@ -47,7 +47,7 @@ export default function Projects (){
                     </div>
                 </div> 
                 
-                <div className="snap-start carousel-item w-1/2">
+                <div className="snap-center carousel-item">
                     <div>
                     <div className="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img src="https://placeimg.com/400/225/arch" alt="card" /></figure>
@@ -68,7 +68,7 @@ export default function Projects (){
                     </div>
                 </div> 
 
-                <div className="snap-start carousel-item w-1/2">
+                <div className="snap-center carousel-item">
                     <div>
                     <div className="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img src="https://placeimg.com/400/225/arch" alt="card" /></figure>
